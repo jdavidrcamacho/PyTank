@@ -8,8 +8,9 @@ pygame.init()
 
 
 #screen variables
-width, height = 1000, 500
-walls = 0.01*width
+width = 1000
+height = int(0.5*width)
+walls = int(0.01*width)
 screen = pygame.display.set_mode((width, height))
 
 #background
